@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title>Coin Wallet</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- default wp styles. Do not connect -->
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css" />
+    <!-- default wp styles end.  -->
+
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-reboot.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="./css/content-style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+  </head>
+
+  <body class="">
+    <div id="wrapper">
+      <header id="main-header" class="main-header">
+        <div class="container">
+          <div class="header-row-wrap">
+            <div class="header-row">
+              <a href="/" class="logo">
+                <img src="./images/logo.svg" alt="" title="">
+              </a>
+              <nav class="main-nav">
+                <ul>
+                  <li class="first"><a href="#">Home</a>
+                  </li>
+                  <li><a href="#">Buy bitcoin</a>
+                  </li>
+                  <li class="menu-item-has-children"><a href="#">Wallet</a>
+                    <ul>
+                      <li><a href="#">Bitcoin</a>
+                      </li>
+                      <li><a href="#">Ethereum</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Features</a>
+                  </li>
+                  <li><a href="#">FAQ</a>
+                  </li>
+                  <li><a href="#">Blockchain</a>
+                  </li>
+                  <li><a href="#">Blog</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="language">
+                <span class="active-lang">En</span>
+                <ul>
+                  <li class="current-lang"><a href="#">En</a>
+                  </li>
+                  <li><a href="#">Ru</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="soliale-networks">
+                <ul>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.66667C0 2.98533 2.98533 0 6.66667 0H17.3333C21.0147 0 24 2.98533 24 6.66667V17.3333C24 21.0147 21.0147 24 17.3333 24H6.66667C2.98533 24 0 21.0147 0 17.3333V6.66667ZM18.6667 12C18.6667 8.31867 15.6813 5.33333 12 5.33333C8.31867 5.33333 5.33333 8.31867 5.33333 12C5.33333 15.6813 8.31867 18.6667 12 18.6667C15.6813 18.6667 18.6667 15.6813 18.6667 12ZM12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8ZM21.3333 4C21.3333 3.264 20.736 2.66667 20 2.66667C19.264 2.66667 18.6667 3.264 18.6667 4C18.6667 4.736 19.264 5.33333 20 5.33333C20.736 5.33333 21.3333 4.736 21.3333 4Z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.33333 0H18.6667C21.612 0 24 2.388 24 5.33333V18.6667C24 21.612 21.612 24 18.6667 24H5.33333C2.388 24 0 21.612 0 18.6667V5.33333C0 2.388 2.388 0 5.33333 0ZM18.7333 9.14267V8.68533C19.3053 8.228 19.876 7.65733 20.336 6.96933C19.6507 7.31333 19.0787 7.42667 18.3933 7.54133C19.0787 7.08533 19.6507 6.51333 19.8787 5.71333C19.3067 6.056 18.6213 6.39867 17.8213 6.51333C17.2493 5.828 16.336 5.48533 15.4213 5.48533C13.592 5.48533 12.1067 6.972 12.1067 8.8C12.1067 8.98872 12.1414 9.14307 12.1727 9.28175C12.1982 9.39487 12.2213 9.49757 12.2213 9.6C9.47867 9.48667 7.07867 8.11467 5.47867 6.172C5.136 6.62933 5.02133 7.2 5.02133 7.772C5.02133 8.91467 5.592 9.82933 6.50667 10.6293C5.936 10.5147 5.47867 10.4 5.02133 10.172C5.02133 11.772 6.164 13.0293 7.64933 13.372C7.30667 13.4867 7.07733 13.4867 6.73467 13.4867C6.68709 13.4867 6.61977 13.4669 6.541 13.4438C6.42992 13.4113 6.29606 13.372 6.16267 13.372C6.62 14.6293 7.76267 15.6573 9.248 15.6573C8.10533 16.4573 6.61867 17.0293 5.13333 17.0293H4.33333C5.81867 17.9427 7.53333 18.5147 9.36133 18.5147C15.4187 18.5147 18.7333 13.4853 18.7333 9.14267Z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0C5.37273 0 0 5.40034 0 12.0617C0 18.109 4.43182 23.102 10.2065 23.9742V15.2586H7.23764V12.088H10.2065V9.9783C10.2065 6.48535 11.8996 4.95187 14.7878 4.95187C16.1711 4.95187 16.9025 5.05494 17.2489 5.10209V7.8697H15.2787C14.0525 7.8697 13.6244 9.03804 13.6244 10.355V12.088H17.2178L16.7302 15.2586H13.6244V24C19.4815 23.2012 24 18.1676 24 12.0617C24 5.40034 18.6273 0 12 0Z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <button class="nav-trigger" aria-label="Menu" aria-labelledby="main-header"><span></span><span></span><span></span>
+              </button>
+            </div>
+          </div>
+          <button class="nav-trigger" aria-label="Menu" aria-labelledby="main-header"><span></span><span></span><span></span>
+          </button>
+        </div>
+      </header>
+
+      <main role="main" class="main page page-coin-privacy">
+        <div class="container">
+
+          <h1>Coin privacy policy</h1>
+
+          <div class="text-wrap">
+            <!-- wp content -->
+            <div class="wp-block-columns">
+              <div class="wp-block-column">
+                <p>Privacy is of utmost importance at the Coin group of companies (“CoinSpace LLC”). We recognize the significance of protecting information which is stored on our computers or is intended to be stored on our computers and which relates to
+                  an individual. The data we protect are the “Personal Data” which is any information relating to an identified or identifiable natural person, sometimes called a data subject, and have made protecting privacy and the confidentiality of
+                  Personal Data a fundamental component of the way we do business. This Privacy Policy informs you of the ways we ensure privacy and the confidentiality of Personal Data. We are compliant with applicable privacy laws in the countries in
+                  which we operate. This policy describes the information we gather, how we may use those Personal Data and the circumstances under which we may disclose such information to third parties. Collecting of Personal Information When you access
+                  or use the Coin site or Services, we may collect some information, including:</p>
+                <p><strong>Information you may provide to us</strong>
+                  <br>Your email address, bitcoin addresses, mobile phone number, alias, password, mobile PIN code, and any other information you choose to provide.</p>
+                <p><strong>Log Information</strong>
+                  <br>We may log information about your use of the Services, including the type of browser you use, access times, pages viewed, your IP address and the page you visited before navigating to our websites.</p>
+                <p><strong>Device Information</strong>
+                  <br>We may collect information about the mobile device you use to access our mobile application, including the hardware model, operating system and version, unique device identifiers and mobile network information.</p>
+                <p><strong>Wallet Address Information</strong>
+                  <br>When you create a wallet through our Services, an encrypted wallet public key and private key pair is automatically generated and stored via our Services. When you enable notifications through your Account Settings, we will collect the
+                  unencrypted wallet public key in order to provision such notifications. Under no circumstances do we ever collect an unencrypted private key from you.</p>
+                <p><strong>Information We Collect From Other Sources</strong>
+                  <br>We may also obtain information from other sources and combine that with information we collect through our Services. For instance, when you log in to our support desk center via a third-party social media service, we may collect information
+                  about your social media account in accordance with the authorization procedures determined by such social media service, including your public profile, friend list and email address. We may use third-party services (eg. Zendesk) co-branded
+                  as CoinAppWallet, but will do so with clear notices. Any third-party services may collect information as determined by their own privacy policies. We also may use “cookies” from time to time to help personalize your online experience
+                  with us. A cookie is a small text file that is stored on your computer to help us make your visit to our site more “user-friendly.” Cookies provide us with information about your use of the site that can help us improve the site and
+                  your experience with it. Any Personal Data collected through cookies will be treated in accordance with this Privacy Policy. If you have set your browser to warn you before accepting cookies, you should receive a warning message with
+                  each cookie. You may refuse cookie by turning them off in your browser, however, you should be aware that our site, like most other popular sites, may not work well with cookies disabled.</p>
+                <p>Use and Disclosure of Personal Data Except as part of the sale of all or substantially all of the assets of Coin (in which case you will be given prior notice), Coin will not use your Personal Data unless we have your consent. We will
+                  only use and/or disclose Personal Data internally in order to:</p>
+                <ol>
+                  <li>Understand and meet your needs and preferences;</li>
+                  <li>Develop new and enhance existing service and product offerings;</li>
+                  <li>Manage and develop our business and operations;</li>
+                  <li>Carry out any purposes for which we have received your consent; and</li>
+                  <li>Meet legal and regulatory requirements.</li>
+                </ol>
+              </div>
+              <div class="wp-block-column">
+                <p>We also reserve the right to use aggregated Personal Data provided that those data do not relate to any individual. Personal Data may be collected, stored and/or processed by third party service providers or by companies in the Coin corporate
+                  family to perform functions on our behalf. All such third parties will be contractually bound to protect data in compliance with our policy. Except where we are required by law to disclose Personal Data or are exempted from, released
+                  from or not subject to any legal requirement concerning the disclosure of Personal Data, we will require any person to whom we provide your Personal Data to agree to comply with our Privacy Policy in force at that time or requirements
+                  substantially similar to such policy. We will make reasonable commercial efforts to ensure that they comply with such policy or requirements, however, we will have no liability to you if any person fails to do so. We shall require any
+                  third party, including without limitation any government or enforcement entity, seeking access to data we hold to have obtained a Court Order, or proof they are statutorily empowered to access your data and that their request is valid
+                  and within their power. Processing We will process your Personal Data legally and fairly and not use it outside the purposes of which we have informed you. So far as we are able we shall ensure that all of your Personal Data is accurate
+                  and up to date. Security of Your Personal Data We protect Personal Data with appropriate physical, technological and organizational safeguards and security measures. Your Personal Data comes to us via the internet which chooses its own
+                  routes and means whereby information is conveyed from location to location. As such we cannot give any warranty or assurance that the means where information is conveyed to us are safe, reliable or have integrity. We audit our procedures
+                  and security measures regularly to ensure they are being properly administered and remain effective and appropriate. Every member of Coin is committed to our privacy policies and procedures to safeguard Personal Data. Our site has security
+                  measures in place to protect against the loss, misuse and unauthorized alteration of the information under our control. More specifically, our server uses SSL (Secure Sockets Layer) security protection by encrypting your Personal Data
+                  including credit card number, name and address to prevent individuals from reading these Data as it travels over the Internet. The length of time we retain Personal Data outside our back up system varies depending on the purpose for
+                  which it was collected and used. This period may extend beyond the end of the particular relationship with us but only for so long as we are contractually bound to do so, or so far as is necessary for audit or other accounting purposes.
+                  When Personal Data are no longer needed we have procedures either to destroy, delete, erase or convert it to an anonymous form. We reserve the right to maintain your Personal Data as part of our standard back up procedures. Storage of
+                  personal data Data provided to Coin is stored in accordance with applicable laws of the jurisdiction of the data subject, at secure locations in the EU. Coin has ensured that appropriate security standards are in place regarding the
+                  safeguarding, confidentiality and security of Data. In regard to data subjects resident in the EU, Coin, where required, registers with appropriate national data protection / information protection authorities. Coin also ensures that
+                  data is held in a manner that meets the requirements of any national law of any member state of the European Union giving effect to Directive 95/46/EC. The Directive provides obligations on the protection of individuals with regard to
+                  the processing of personal data and on the free movement of such data. Withdrawal of Consent Except as required or enabled by law (including, for the avoidance of doubt, the laws of the member states of the European Union we have mentioned
+                  above), we will not use or disclose your Personal Data for any purpose for which you refuse consent or later withdraw your consent. If you withdraw consent, you agree that in spite of this withdrawal, we may continue to use those Personal
+                  Data previously provided to us to the extent that we are contractually or otherwise legally obliged to do so and to the extent necessary to enforce any contractual obligation you may have towards Coin or in any other way permitted by
+                  law. You also understand that although you can use our site for some purposes without providing Personal Data, we need certain Personal Data, including data linked to payment or involving an ongoing relationship with Coin or our partners.
+                  If you refuse to provide us with Personal Data we require or later withdraw your consent, we may no longer be able to provide you with certain services. Acceptance By using this site, you signify your agreement to this Policy. Coin reserves
+                  the right to change this Policy at any time. Any changes will be posted so that you are always aware of what information we collect, how we use it and under what circumstances we disclose it. Questions Any questions about this policy,
+                  the collection, use and disclosure of Personal Data by Coin or access to your Personal Data which is required by law (or would be so subject had the storage in question taken place in a relevant EU member state if the case may be but
+                  not otherwise) to be disclosed should be directed to support@Coin.Space.</p>
+              </div>
+            </div>
+            <!-- end wp content -->
+          </div>
+
+        </div>
+      </main>
+
+      <div class="row-download-now">
+        <div class="container">
+          <h3><img class="icon" src="./images/icon-download.svg" alt="">Download now</h3>
+          <p>Use one of magic links</p>
+          <div class="download-buttons">
+            <a href="#" class="download-btn">
+              <span class="icon">
+
+						<img src="./images/icon-web-wallet.svg" alt="">
+
+					</span>
+              <span class="text">
+
+						<span class="title">Web wallet</span>
+              <span class="subtitle">Launch now</span>
+              </span>
+            </a>
+            <a href="#" class="download-btn">
+              <span class="icon">
+
+						<img src="./images/icon-apple.svg" alt="">
+
+					</span>
+              <span class="text">
+
+						<span class="title">Download</span>
+              <span class="subtitle">macOS Catalina</span>
+              </span>
+            </a>
+            <a href="#" class="download-btn">
+              <span class="icon">
+
+						<img src="./images/icon-windows.svg" alt="">
+
+					</span>
+              <span class="text">
+
+						<span class="title">Get it from</span>
+              <span class="subtitle">Windows 8 +</span>
+              </span>
+            </a>
+            <a href="#" class="download-btn">
+              <span class="icon">
+
+						<img src="./images/icon-google-play.svg" alt="">
+
+					</span>
+              <span class="text">
+
+						<span class="title">Google play</span>
+              <span class="subtitle">Android 8+</span>
+              </span>
+            </a>
+            <a href="#" class="download-btn">
+              <span class="icon">
+
+						<img src="./images/icon-apple.svg" alt="">
+
+					</span>
+              <span class="text">
+
+						<span class="title">App store</span>
+              <span class="subtitle">IOS 13+</span>
+              </span>
+            </a>
+            <a href="#" class="download-btn">
+              <span class="icon">
+
+						<img src="./images/icon-snap-store.svg" alt="">
+
+					</span>
+              <span class="text">
+
+						<span class="title">Snap Store</span>
+              <span class="subtitle">Snap store</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="main-footer">
+        <div class="container">
+          <div class="footer-row">
+            <div class="left-footer">
+              <a href="/" class="logo">
+                <img src="./images/logo.svg" alt="" title="">
+              </a>
+              <div class="soliale-networks">
+                <ul>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.66667C0 2.98533 2.98533 0 6.66667 0H17.3333C21.0147 0 24 2.98533 24 6.66667V17.3333C24 21.0147 21.0147 24 17.3333 24H6.66667C2.98533 24 0 21.0147 0 17.3333V6.66667ZM18.6667 12C18.6667 8.31867 15.6813 5.33333 12 5.33333C8.31867 5.33333 5.33333 8.31867 5.33333 12C5.33333 15.6813 8.31867 18.6667 12 18.6667C15.6813 18.6667 18.6667 15.6813 18.6667 12ZM12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8ZM21.3333 4C21.3333 3.264 20.736 2.66667 20 2.66667C19.264 2.66667 18.6667 3.264 18.6667 4C18.6667 4.736 19.264 5.33333 20 5.33333C20.736 5.33333 21.3333 4.736 21.3333 4Z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.33333 0H18.6667C21.612 0 24 2.388 24 5.33333V18.6667C24 21.612 21.612 24 18.6667 24H5.33333C2.388 24 0 21.612 0 18.6667V5.33333C0 2.388 2.388 0 5.33333 0ZM18.7333 9.14267V8.68533C19.3053 8.228 19.876 7.65733 20.336 6.96933C19.6507 7.31333 19.0787 7.42667 18.3933 7.54133C19.0787 7.08533 19.6507 6.51333 19.8787 5.71333C19.3067 6.056 18.6213 6.39867 17.8213 6.51333C17.2493 5.828 16.336 5.48533 15.4213 5.48533C13.592 5.48533 12.1067 6.972 12.1067 8.8C12.1067 8.98872 12.1414 9.14307 12.1727 9.28175C12.1982 9.39487 12.2213 9.49757 12.2213 9.6C9.47867 9.48667 7.07867 8.11467 5.47867 6.172C5.136 6.62933 5.02133 7.2 5.02133 7.772C5.02133 8.91467 5.592 9.82933 6.50667 10.6293C5.936 10.5147 5.47867 10.4 5.02133 10.172C5.02133 11.772 6.164 13.0293 7.64933 13.372C7.30667 13.4867 7.07733 13.4867 6.73467 13.4867C6.68709 13.4867 6.61977 13.4669 6.541 13.4438C6.42992 13.4113 6.29606 13.372 6.16267 13.372C6.62 14.6293 7.76267 15.6573 9.248 15.6573C8.10533 16.4573 6.61867 17.0293 5.13333 17.0293H4.33333C5.81867 17.9427 7.53333 18.5147 9.36133 18.5147C15.4187 18.5147 18.7333 13.4853 18.7333 9.14267Z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0C5.37273 0 0 5.40034 0 12.0617C0 18.109 4.43182 23.102 10.2065 23.9742V15.2586H7.23764V12.088H10.2065V9.9783C10.2065 6.48535 11.8996 4.95187 14.7878 4.95187C16.1711 4.95187 16.9025 5.05494 17.2489 5.10209V7.8697H15.2787C14.0525 7.8697 13.6244 9.03804 13.6244 10.355V12.088H17.2178L16.7302 15.2586H13.6244V24C19.4815 23.2012 24 18.1676 24 12.0617C24 5.40034 18.6273 0 12 0Z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <nav class="footer-nav">
+              <ul>
+                <li><a href="#">Buy bitcoin</a>
+                </li>
+                <li><a href="#">Features</a>
+                </li>
+                <li><a href="#">Blockchain</a>
+                </li>
+                <li><a href="#">Wallet</a>
+                </li>
+                <li><a href="#">FAQ</a>
+                </li>
+                <li><a href="#">Blog</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+  </body>
+
+</html>
