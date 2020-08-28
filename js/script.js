@@ -2,10 +2,10 @@ $(document).ready(function() {
 
 	/* sticky */  
 	$mainPaddingElement = $('#wrapper');
-	$mainPaddingElement.css?v=1('padding-top', $('#main-header').outerHeight());
+	$mainPaddingElement.css('padding-top', $('#main-header').outerHeight());
 	$('#main-header').addClass('sticky');
 	$(window).on('resize orientationChange', function() {
-		$mainPaddingElement.css?v=1('padding-top', $('#main-header').outerHeight());
+		$mainPaddingElement.css('padding-top', $('#main-header').outerHeight());
 	});
 
 	$(window).scroll(function (){

@@ -419,8 +419,10 @@ label, .label {
           transform: rotate(135deg);
           border-color: #2FA761; }
       .main-nav ul li ul {
-        background: #fff;
-        border: 1px solid rgba(103, 108, 115, 0.4);
+        background: #FAFAFA;
+        -webkit-box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         position: absolute;
@@ -685,9 +687,11 @@ label, .label {
           position: relative;
           left: auto;
           top: auto;
-          width: 100%; }
+          width: 100%;
+          padding-top: 0;
+          padding-bottom: 15px; }
           .main-nav ul li ul li a {
-            padding: 10px 0;
+            padding: 7px 0;
             font-size: 16px; }
   .language {
     -webkit-box-ordinal-group: 2;
@@ -1418,9 +1422,7 @@ label, .label {
 .bg-dark {
   background: #1B1D20;
   padding: 100px 0 100px;
-  color: rgba(255, 255, 255, 0.6);
-  border-bottom: 1px solid #676C73;
-  border-top: 1px solid #676C73; }
+  color: rgba(255, 255, 255, 0.6); }
   .bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4, .bg-dark h5, .bg-dark .h1, .bg-dark .h2, .bg-dark .h3, .bg-dark .h4, .bg-dark .h5 {
     color: #fff; }
 
@@ -2601,4 +2603,4 @@ label, .label {
   .main-footer .footer-nav ul li a {
     font-size: 14px; } }
 
-/*# sourceMappingURL=style.css?v=1.map */
+/*# sourceMappingURL=style.css.map */
