@@ -30,54 +30,56 @@
 <div id="wrapper">
 	<header id="main-header" class="main-header">
 		<div class="container">
-			<div class="header-row-wrap">
-				<div class="header-row">
-					<a href="/" class="logo">
-						<img src="./images/logo.svg" alt="" title="">
-					</a>
-					<nav class="main-nav">
-						<ul>
-							<li class="first"><a href="#">Home</a></li>
-							<li><a href="#">Buy bitcoin</a></li>
-							<li class="menu-item-has-children"><a href="#">Wallet</a>
-								<ul>
-									<li><a href="#">Bitcoin</a></li>
-									<li><a href="#">Ethereum</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Features</a></li>
-							<li><a href="#">FAQ</a></li>
-							<li><a href="#">Blockchain</a></li>
-							<li><a href="#">Blog</a></li>
-						</ul>
-					</nav>
-					<div class="language">
-						<span class="active-lang">En</span>
-						<ul>
-							<li class="current-lang"><a href="#">En</a></li>
-							<li><a href="#">Ru</a></li>
-						</ul>
+			<div class="header-row">
+				<a href="/" class="logo">
+					<img src="./images/logo.svg" alt="" title="">
+				</a>
+				<div class="header-right-wrap">
+					<div class="header-right">
+						<nav class="main-nav">
+							<ul>
+								<li class="first"><a href="#">Home</a></li>
+								<li><a href="#">Buy bitcoin</a></li>
+								<li class="menu-item-has-children"><a href="#">Wallet</a>
+									<ul>
+										<li><a href="#">Bitcoin</a></li>
+										<li><a href="#">Ethereum</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Features</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Blockchain</a></li>
+								<li><a href="#">Blog</a></li>
+							</ul>
+						</nav>
+						<div class="language">
+							<input type="checkbox" id="checkbox_language_toggle">
+	   						<label for="checkbox_language_toggle">En</label>
+							<ul>
+								<li class="current-lang"><a href="#">En</a></li>
+								<li><a href="#">Ru</a></li>
+							</ul>
+						</div>
+						<div class="soliale-networks">
+							<ul>
+								<li><a href="#" target="_blank">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.66667C0 2.98533 2.98533 0 6.66667 0H17.3333C21.0147 0 24 2.98533 24 6.66667V17.3333C24 21.0147 21.0147 24 17.3333 24H6.66667C2.98533 24 0 21.0147 0 17.3333V6.66667ZM18.6667 12C18.6667 8.31867 15.6813 5.33333 12 5.33333C8.31867 5.33333 5.33333 8.31867 5.33333 12C5.33333 15.6813 8.31867 18.6667 12 18.6667C15.6813 18.6667 18.6667 15.6813 18.6667 12ZM12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8ZM21.3333 4C21.3333 3.264 20.736 2.66667 20 2.66667C19.264 2.66667 18.6667 3.264 18.6667 4C18.6667 4.736 19.264 5.33333 20 5.33333C20.736 5.33333 21.3333 4.736 21.3333 4Z"/></svg>
+								</a></li>
+								<li><a href="#" target="_blank">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.33333 0H18.6667C21.612 0 24 2.388 24 5.33333V18.6667C24 21.612 21.612 24 18.6667 24H5.33333C2.388 24 0 21.612 0 18.6667V5.33333C0 2.388 2.388 0 5.33333 0ZM18.7333 9.14267V8.68533C19.3053 8.228 19.876 7.65733 20.336 6.96933C19.6507 7.31333 19.0787 7.42667 18.3933 7.54133C19.0787 7.08533 19.6507 6.51333 19.8787 5.71333C19.3067 6.056 18.6213 6.39867 17.8213 6.51333C17.2493 5.828 16.336 5.48533 15.4213 5.48533C13.592 5.48533 12.1067 6.972 12.1067 8.8C12.1067 8.98872 12.1414 9.14307 12.1727 9.28175C12.1982 9.39487 12.2213 9.49757 12.2213 9.6C9.47867 9.48667 7.07867 8.11467 5.47867 6.172C5.136 6.62933 5.02133 7.2 5.02133 7.772C5.02133 8.91467 5.592 9.82933 6.50667 10.6293C5.936 10.5147 5.47867 10.4 5.02133 10.172C5.02133 11.772 6.164 13.0293 7.64933 13.372C7.30667 13.4867 7.07733 13.4867 6.73467 13.4867C6.68709 13.4867 6.61977 13.4669 6.541 13.4438C6.42992 13.4113 6.29606 13.372 6.16267 13.372C6.62 14.6293 7.76267 15.6573 9.248 15.6573C8.10533 16.4573 6.61867 17.0293 5.13333 17.0293H4.33333C5.81867 17.9427 7.53333 18.5147 9.36133 18.5147C15.4187 18.5147 18.7333 13.4853 18.7333 9.14267Z"/></svg>
+								</a></li>
+								<li><a href="#" target="_blank">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.37273 0 0 5.40034 0 12.0617C0 18.109 4.43182 23.102 10.2065 23.9742V15.2586H7.23764V12.088H10.2065V9.9783C10.2065 6.48535 11.8996 4.95187 14.7878 4.95187C16.1711 4.95187 16.9025 5.05494 17.2489 5.10209V7.8697H15.2787C14.0525 7.8697 13.6244 9.03804 13.6244 10.355V12.088H17.2178L16.7302 15.2586H13.6244V24C19.4815 23.2012 24 18.1676 24 12.0617C24 5.40034 18.6273 0 12 0Z"/></svg>
+								</a></li>
+							</ul>
+						</div>
+						<button class="nav-trigger" aria-label="Menu" aria-labelledby="main-header"><span></span><span></span><span></span></button>
 					</div>
-					<div class="soliale-networks">
-						<ul>
-							<li><a href="#" target="_blank">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.66667C0 2.98533 2.98533 0 6.66667 0H17.3333C21.0147 0 24 2.98533 24 6.66667V17.3333C24 21.0147 21.0147 24 17.3333 24H6.66667C2.98533 24 0 21.0147 0 17.3333V6.66667ZM18.6667 12C18.6667 8.31867 15.6813 5.33333 12 5.33333C8.31867 5.33333 5.33333 8.31867 5.33333 12C5.33333 15.6813 8.31867 18.6667 12 18.6667C15.6813 18.6667 18.6667 15.6813 18.6667 12ZM12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8ZM21.3333 4C21.3333 3.264 20.736 2.66667 20 2.66667C19.264 2.66667 18.6667 3.264 18.6667 4C18.6667 4.736 19.264 5.33333 20 5.33333C20.736 5.33333 21.3333 4.736 21.3333 4Z"/></svg>
-							</a></li>
-							<li><a href="#" target="_blank">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.33333 0H18.6667C21.612 0 24 2.388 24 5.33333V18.6667C24 21.612 21.612 24 18.6667 24H5.33333C2.388 24 0 21.612 0 18.6667V5.33333C0 2.388 2.388 0 5.33333 0ZM18.7333 9.14267V8.68533C19.3053 8.228 19.876 7.65733 20.336 6.96933C19.6507 7.31333 19.0787 7.42667 18.3933 7.54133C19.0787 7.08533 19.6507 6.51333 19.8787 5.71333C19.3067 6.056 18.6213 6.39867 17.8213 6.51333C17.2493 5.828 16.336 5.48533 15.4213 5.48533C13.592 5.48533 12.1067 6.972 12.1067 8.8C12.1067 8.98872 12.1414 9.14307 12.1727 9.28175C12.1982 9.39487 12.2213 9.49757 12.2213 9.6C9.47867 9.48667 7.07867 8.11467 5.47867 6.172C5.136 6.62933 5.02133 7.2 5.02133 7.772C5.02133 8.91467 5.592 9.82933 6.50667 10.6293C5.936 10.5147 5.47867 10.4 5.02133 10.172C5.02133 11.772 6.164 13.0293 7.64933 13.372C7.30667 13.4867 7.07733 13.4867 6.73467 13.4867C6.68709 13.4867 6.61977 13.4669 6.541 13.4438C6.42992 13.4113 6.29606 13.372 6.16267 13.372C6.62 14.6293 7.76267 15.6573 9.248 15.6573C8.10533 16.4573 6.61867 17.0293 5.13333 17.0293H4.33333C5.81867 17.9427 7.53333 18.5147 9.36133 18.5147C15.4187 18.5147 18.7333 13.4853 18.7333 9.14267Z"/></svg>
-							</a></li>
-							<li><a href="#" target="_blank">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.37273 0 0 5.40034 0 12.0617C0 18.109 4.43182 23.102 10.2065 23.9742V15.2586H7.23764V12.088H10.2065V9.9783C10.2065 6.48535 11.8996 4.95187 14.7878 4.95187C16.1711 4.95187 16.9025 5.05494 17.2489 5.10209V7.8697H15.2787C14.0525 7.8697 13.6244 9.03804 13.6244 10.355V12.088H17.2178L16.7302 15.2586H13.6244V24C19.4815 23.2012 24 18.1676 24 12.0617C24 5.40034 18.6273 0 12 0Z"/></svg>
-							</a></li>
-						</ul>
-					</div>
-					<button class="nav-trigger" aria-label="Menu" aria-labelledby="main-header"><span></span><span></span><span></span></button>
 				</div>
+				<button class="nav-trigger" aria-label="Menu" aria-labelledby="main-header"><span></span><span></span><span></span></button>
 			</div>
-			<button class="nav-trigger" aria-label="Menu" aria-labelledby="main-header"><span></span><span></span><span></span></button>
 		</div>
 	</header>
-
 	<main class="main">
 		<div class="main-row-1">
 			<div class="container">
