@@ -1,0 +1,31 @@
+{
+  "name": "FTSProject",
+  "version": "1.0.0",
+  "description": "My Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp --env=dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-html-prettify": "latest",
+    "gulp-if": "latest",
+    "gulp-plumber": "latest",
+    "gulp-postcss": "latest",
+    "gulp-rigger": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-strip-css-comments": "latest",
+    "gulp-util": "latest",
+    "gulp-watch": "latest",
+    "node-bourbon": "latest",
+    "postcss-flexbugs-fixes": "latest",
+    "run-sequence": "latest"
+  }
+}

@@ -1,0 +1,109 @@
+@import "variables";
+
+/* collapse-common */
+.fade {
+  transition: opacity 0.15s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade {
+    transition: none;
+  }
+}
+
+.fade:not(.show) {
+  opacity: 0;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .collapsing {
+    transition: none;
+  }
+}
+
+/* accordion */
+.accordion{
+	margin-bottom: 25px;
+	.accordion-card{
+		border-bottom: 1px solid rgba(27, 29, 32, .12);
+	}
+	.accordion-card-header{
+		h4, .h4{
+			margin-bottom: 0;
+		}
+		button{
+			background: none;
+			border: none;
+			display: block;
+			width: 100%;
+			color: $color-1;
+			font-size: 18px;
+			font-weight: 600;
+			text-decoration: none;
+			position: relative;
+			text-align: left;
+			padding: 24px 50px 24px 0;
+			.plus{
+				position: absolute;
+				right: 0;
+				top: 27px;
+				width: 22px;
+				height: 22px;
+				border-radius: 50%;
+				border: 1px solid $color-1;
+				transition-duration: 0.2s;
+				opacity: 0.4;
+				&:before, &:after{
+					content: '';
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					width: 8px;
+					height: 1px;
+					background:  $color-1;
+					transition-duration: 0.2s;
+					transform: translate(-50%, -50%);
+				}
+				&:after{
+					transform: translate(-50%, -50%) rotate(90deg);
+					opacity: 0;
+				}
+			}
+			&.collapsed{
+				.plus{
+					&:after{
+						opacity: 1;
+					}
+				}
+			}
+			&:hover{
+				.plus{
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+	.accordion-card-body{
+		padding: 1px 0 22px;
+		p:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media (max-width: 767px){
+	.accordion{
+		margin-bottom: 0;
+	}
+}

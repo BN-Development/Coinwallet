@@ -1,0 +1,13 @@
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+$color-1: #1B1D20;
+$color-2: #676C73;
+$color-3: #2FA761;
+
+$font-1: 'Inter', sans-serif;
