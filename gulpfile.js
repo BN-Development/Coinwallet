@@ -7,7 +7,6 @@ var gulp = require('gulp'),
   flexfixes = require('postcss-flexbugs-fixes'),
   autoprefixer  = require('gulp-autoprefixer'),
   stripCssComments = require('gulp-strip-css-comments'),
-  browsers = require('./browsers.json'),
   sourcemaps = require('gulp-sourcemaps'),
   gutil = require('gulp-util'),
   gulpif = require('gulp-if'),
@@ -30,7 +29,7 @@ gulp.task('scss', () => {
 
     
     .pipe(autoprefixer({
-      browsers: ['last 3 version', "> 1%", "ie 8", "ie 7"],
+      overrideBrowserslist: ['last 3 version', "> 1%", "ie 8", "ie 7"],
       cascade: false
     }))
 
